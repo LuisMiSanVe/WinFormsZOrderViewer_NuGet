@@ -20,7 +20,7 @@
 	<PackageProjectUrl>https://github.com/LuisMiSanVe/WinFormsZOrderViewer_NuGet</PackageProjectUrl>
 	<Copyright>Apache 2.0</Copyright>
 	<ApplicationIcon>Resources\logo.ico</ApplicationIcon>
-	<PackageReadmeFile>NUGET_README.md</PackageReadmeFile>
+	<PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
@@ -34,13 +34,13 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="NUGET_README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="README_NUGET.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="Resources\logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
